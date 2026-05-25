@@ -123,9 +123,6 @@ langchain-text-splitters
 faiss-cpu
 sentence-transformers
 ```
-
-> **GPU note:** `faiss-cpu` is used because `faiss-gpu` has no wheels for Python 3.11+. Embedding inference still runs on GPU via PyTorch independently.
-
 ---
 
 ## How It Works
