@@ -164,8 +164,4 @@ User Question ──► Retriever ──► Relevant Chunks
 | Chunk overlap | `app.py` → `chunk_overlap` | `200` |
 | Device | `app.py` → `model_kwargs['device']` | `cpu` (`cuda` if GPU enabled) |
 
----
 
-## License
-
-MIT
